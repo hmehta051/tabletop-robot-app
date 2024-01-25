@@ -1,8 +1,8 @@
 import "./App.css";
-import Tabletop from "./components/TableTop";
+import TableRobot from "./components/TableRobot";
 
 function App() {
-  return <Tabletop />;
+  return <TableRobot />;
 }
 
 export default App;
