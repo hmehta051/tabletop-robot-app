@@ -2,9 +2,9 @@ import { useState } from "react";
 
 const Tabletop = () => {
   const [robot, setRobot] = useState({
-    x: 0, // Default starting position
-    y: 0, // Default starting position
-    facing: "NORTH", // Default facing direction
+    x: 0,
+    y: 0,
+    facing: "NORTH",
   });
 
   const place = (x, y, facing) => {
@@ -75,7 +75,6 @@ const Tabletop = () => {
             top: robot.y,
             width: 50,
             height: 50,
-            backgroundColor: "red",
             transform: `rotate(${getRotationAngle(robot.facing)}deg)`,
           }}
         />

@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone [URL of your repository]
+   git clone https://github.com/hmehta051/tabletop-robot-app.git
    ```
 2. Navigate to the project directory:
    ```
@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
    ```
 4. Run the application:
    ```
-   npm start
+   npm run dev
    ```
 
 ## Usage
@@ -50,6 +50,10 @@ Contributions to improve Tabletop Robot App are welcome. Please follow these ste
 3. Make your changes and commit them (`git commit -am 'Add some feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
+
+## Links
+
+[Check out the live app here!](https://subtle-kringle-8f4c0e.netlify.app/)
 
 ## License
 
